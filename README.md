@@ -53,3 +53,11 @@ cd flight-route-optimization
 
 4. **View Results:**
 - The program will display the optimized route, total distance, fuel consumption, and cost based on your selection.
+
+
+
+## Future Goals
+Future enhancements for the Flight Route Optimization System include:
+- **Integration of Real-time Data:** Incorporating live weather and air traffic data for dynamic route adjustments.
+- **Advanced Heuristic Functions:** Developing more accurate heuristics for fuel consumption and cost optimization.
+- **Regulatory Compliance Module:** Adding features to adhere to specific regulatory constraints and airspace restrictions.
