@@ -31,7 +31,7 @@ To use this repository:
 
 1. **Clone the Repository:**
 ```
-git clone (https://github.com/GauravAhuja7/Flight-route-optimization)
+git clone https://github.com/GauravAhuja7/Flight-route-optimization
 cd flight-route-optimization
 ```
 
