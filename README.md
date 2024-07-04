@@ -10,7 +10,7 @@ This project aims to optimize flight routes between airports using data sourced 
 
 ## Data Source
 
-The flight data used in this project is sourced from [OpenFlight.org](https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat). It includes information about airports and flight connections worldwide, essential for calculating optimal routes.
+The flight data used in this project is sourced from [OpenFlight.org](https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat). It includes information about airports and flight connections worldwide, essential for calculating optimal routes. Also you can look at their github profile and their website for more info.
 
 ## Algorithms Used
 
