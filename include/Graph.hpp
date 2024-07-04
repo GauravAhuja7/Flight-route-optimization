@@ -5,20 +5,26 @@
 #include <vector>
 #include <map>
 
-// Forward declarations
-struct Edge;
-struct Vertex;
+struct Edge {
+    int target;
+    double distance;
+    double fuelConsumption;  // Added attribute for fuel consumption
+    double cost;             // Added attribute for cost
+};
 
-// Graph class to hold the flight route data
 class Graph {
 public:
-    void addEdge(const std::string& source, const std::string& target, double weight, double fuel, double cost);
-    std::vector<int> findShortestPathDijkstra(const std::string& start, const std::string& goal, const std::string& criteria) const;
-    std::vector<int> findShortestPathAStar(const std::string& start, const std::string& goal, const std::string& criteria) const;
-    double calculateHeuristic(const std::string& vertex, const std::string& goal, const std::string& criteria) const;  // For A* algorithm
+    void addEdge(const std::string& source, const std::string& target, double distance, double fuelConsumption, double cost);
+    std::vector<int> findShortestPathDijkstra(const std::string& start, const std::string& goal) const;
+    std::vector<int> findOptimalPathByFuelConsumption(const std::string& start, const std::string& goal) const;
+    std::vector<int> findOptimalPathByCost(const std::string& start, const std::string& goal) const;
+    bool hasAirport(const std::string& airportCode) const;
+    std::string getAirportCode(int index) const;
+    std::vector<Edge> getEdges(int index) const;
 
+private:
     std::map<std::string, int> vertexMap;
-    std::vector<Vertex> vertices;
+    std::vector<std::vector<Edge>> adjacencyList;
 };
 
 #endif // GRAPH_HPP
