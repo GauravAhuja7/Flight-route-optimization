@@ -30,11 +30,13 @@ The system provides optimized flight routes based on user-selected criteria:
 To use this repository:
 
 1. **Clone the Repository:**
+```
 git clone (https://github.com/GauravAhuja7/Flight-route-optimization)
 cd flight-route-optimization
+```
 
 
-2. **Compile and Run:**
+3. **Compile and Run:**
 - Ensure you have a C++ compiler installed (e.g., g++).
 - Compile the code:
   ```
