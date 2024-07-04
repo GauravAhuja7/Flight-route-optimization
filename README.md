@@ -15,7 +15,7 @@ The flight data used in this project is sourced from [OpenFlight.org](https://ra
 ## Algorithms Used
 
 - **Dijkstra's Algorithm:** Used to find the shortest path based on distance.
-- **A* Algorithm:** Implemented with a heuristic to find optimal paths considering both distance and a selected optimization criterion (time, fuel, or cost).
+- **A star Algorithm:** Implemented with a heuristic to find optimal paths considering both distance and a selected optimization criterion (time, fuel, or cost).
 
 ## Results
 
